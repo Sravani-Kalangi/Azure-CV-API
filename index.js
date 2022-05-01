@@ -22,7 +22,7 @@ const swaggerOptions ={
                 name:'Sravani Kalangi'
             },
             basePath:"/api/",
-            servers:["http://--------:3000"]
+            servers:["http://161.35.113.254:3000"]
         }
     },
     apis: ['./controller/imageAnalyze.js','./controller/textAnalyze.js']
@@ -35,6 +35,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(cors());
+
+app.get('/', (req, res) => {
+    res.send('Hello World! Visit http://161.35.113.254:3000/api/docs for more details!')
+  });
 
 app.use('/api/image/',imageAnalyzeApi);
 
