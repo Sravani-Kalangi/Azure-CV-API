@@ -75,12 +75,11 @@ router.post('/',[check('imageUrl').isURL().withMessage('Enter a valid URL')],url
                     res.status(200).json(result);
             }catch (err){
                 res.status(err.statusCode).send(err.message);
-                throw err;
             } 
         }else
-            res.send('Bad request - URL required');
+            res.status(400).send('Bad request - URL required');
     }else
-        res.send('Bad request - Body required');
+        res.status(400).send('Bad request - Body required');
 });
 
 module.exports = router;
