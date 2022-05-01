@@ -69,7 +69,7 @@ For more details on the other errors, visit [here](https://centraluseuap.dev.cog
 
 The API returns the objects detected in the imageUrl
 
-Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/detectText`
+Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/detectObject`
 
 If the image is successfully processed, 
 
@@ -86,7 +86,7 @@ For more details on the other errors, visit [here](https://centraluseuap.dev.cog
 
 The API returns the possible caption(s) of the image in the imageUrl
 
-Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/detectText`
+Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/imageCaption`
 
 If the image is successfully processed, 
 
