@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
     res.send('Hello World! Visit http://161.35.113.254:3000/api/docs for more details!')
   });
 

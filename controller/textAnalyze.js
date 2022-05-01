@@ -77,7 +77,7 @@ router.post('/',[check('imageUrl').isURL().withMessage('Enter a valid URL')],url
                 res.status(err.statusCode).send(err.message);
             } 
         }else
-            res.status(400).send('Bad request - URL required');
+            res.status(400).send('Bad request - imageUrl required');
     }else
         res.status(400).send('Bad request - Body required');
 });
