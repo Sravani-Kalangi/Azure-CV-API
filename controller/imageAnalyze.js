@@ -175,7 +175,6 @@ router.post('/imageCaption',[check('imageUrl').isURL().withMessage('Enter a vali
             try{
                 let description = (await computerVisionClient.analyzeImage(imageUrl, { visualFeatures: ['Description'] })).description;
                 const result = extractCaptions(description.captions);
-                console.log(description)
                 if(result.length == 0)
                     res.send('No Captions possible.')
                 else
