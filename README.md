@@ -21,7 +21,7 @@
 
 > **Image Caption** <br/> /image/imageCaption
 
-All endpoints are POST requests with request body:
+All endpoints are POST requests with request body of JSON type:
 ```JavaScript
 {
     "imageUrl" : "<< Image_URL >>"
