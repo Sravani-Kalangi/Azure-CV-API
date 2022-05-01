@@ -16,8 +16,8 @@ const PORT = process.env.PORT;
 const swaggerOptions ={
     swaggerDefinition: {
         info: {
-            title: 'Computer vision: Brand image and text detection API',
-            description: 'The Computer Vision service provides us a way to access AI algorithms for processing images and returns brands and text using Azure Computer Vision API',
+            title: 'Computer vision: Brand, object, caption, text detection and extraction API',
+            description: 'The Computer Vision service provides us a way to access AI algorithms for processing images and returns brands, objects, captions and text using Azure Computer Vision API',
             contact: {
                 name:'Sravani Kalangi'
             },
