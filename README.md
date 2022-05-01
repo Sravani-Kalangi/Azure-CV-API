@@ -39,7 +39,7 @@ Send a `POST` request to the url - `http://161.35.113.254:3000/api/detectText`
 
 If the image is successfully processed, 
 
-1. If there is text present, a JSON is returned
+1. If there is text present, a result is returned
 2. If there is no text, a message `There is no text to read.` is returned
 
 If the request body is empty, `Bad request - Body required` error is returned
@@ -56,7 +56,7 @@ Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/detectB
 
 If the image is successfully processed, 
 
-1. If there is brand present, a JSON is returned
+1. If there is brand present, a result is returned
 2. If there is no text, a message `No brands detected.` is returned
 
 If the request body is empty, `Bad request - Body required` error is returned
@@ -73,7 +73,7 @@ Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/detectO
 
 If the image is successfully processed, 
 
-1. If there is text present, A JSON is returned
+1. If there is text present, a result is returned
 2. If there is no text, a message `There is no text to read.` is returned
 
 If the request body is empty, `Bad request - Body required` error is returned
@@ -90,7 +90,7 @@ Send a `POST` request to the url - `http://161.35.113.254:3000/api/image/imageCa
 
 If the image is successfully processed, 
 
-1. If there is text present, A JSON is returned
+1. If there is text present, a result is returned
 2. If there is no text, a message `There is no text to read.` is returned
 
 If the request body is empty, `Bad request - Body required` error is returned
