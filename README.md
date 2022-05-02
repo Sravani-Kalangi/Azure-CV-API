@@ -31,6 +31,8 @@ All endpoints are POST requests with request body of JSON type:
 
 Give a valid URL in the place of `<< Image_URL >>`. The API can be tested using POSTMAN or you can try it out in the swagger docs.
 
+A sample [Postman collection]()
+
 ## Text Extraction
 
 By default, the service extracts all text from your images including mixed languages. 
@@ -99,3 +101,13 @@ If the request body is missing the imageUrl , `Bad request - imageUrl required` 
 
 For more details on the other errors, visit [here](https://centraluseuap.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-2/operations/56f91f2e778daf14a499f21b)
 
+## Tools, Languages and Frameworks Used
+●	Node js - For implementing the API
+<br/>
+●	Digital Ocean - For deploying the project
+<br/>
+●	Swagger - For API documentation and testing
+<br/>
+●	Git - For source code management
+<br/>
+●   Postman - For testing
