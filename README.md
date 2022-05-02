@@ -31,7 +31,7 @@ All endpoints are POST requests with request body of JSON type:
 
 Give a valid URL in the place of `<< Image_URL >>`. The API can be tested using POSTMAN or you can try it out in the swagger docs.
 
-A sample [Postman collection]()
+`A sample [Postman collection](https://github.com/Sravani-Kalangi/Azure-CV-API/blob/main/Postman%20Collection.json) that you can use for testing.`
 
 ## Text Extraction
 
@@ -111,3 +111,8 @@ For more details on the other errors, visit [here](https://centraluseuap.dev.cog
 ●	Git - For source code management
 <br/>
 ●   Postman - For testing
+
+## Azure documentation
+
+Check out the complete documentation of the Azure service used [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
+
