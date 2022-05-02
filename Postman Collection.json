@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "91a0f4d7-8b32-421c-b48a-fe4c8528fc8a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://161.35.113.254:3000/api/detectText",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageUrl\":\"https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/printed_text.jpg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://161.35.113.254:3000/api/detectText",
+					"protocol": "http",
+					"host": [
+						"161",
+						"35",
+						"113",
+						"254"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"detectText"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://161.35.113.254:3000/api/image/detectBrand",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageUrl\":\"https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/images/red-shirt-logo.jpg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://161.35.113.254:3000/api/image/detectBrand",
+					"protocol": "http",
+					"host": [
+						"161",
+						"35",
+						"113",
+						"254"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"image",
+						"detectBrand"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://161.35.113.254:3000/api/image/detectObject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageUrl\":\"https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/images/windows-kitchen.jpg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://161.35.113.254:3000/api/image/detectObject",
+					"protocol": "http",
+					"host": [
+						"161",
+						"35",
+						"113",
+						"254"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"image",
+						"detectObject"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://161.35.113.254:3000/api/image/imageCaption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageUrl\":\"https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/images/windows-kitchen.jpg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://161.35.113.254:3000/api/image/imageCaption",
+					"protocol": "http",
+					"host": [
+						"161",
+						"35",
+						"113",
+						"254"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"image",
+						"imageCaption"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
