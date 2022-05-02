@@ -1,5 +1,5 @@
 # Azure-CV-API : Brand, object, caption, text detection and extraction API
-**By Sravani Kalangi**
+**By Sravani Kalangi for ITIS 6177**
 
 ## Where is it present
 
