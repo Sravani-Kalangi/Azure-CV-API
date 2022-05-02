@@ -116,3 +116,12 @@ For more details on the other errors, visit [here](https://centraluseuap.dev.cog
 
 Check out the complete documentation of the Azure service used [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 
+### Note
+The .env file has the following attributes: 
+<br/>
+API_KEY
+<br/>
+API_ENDPOINT
+<br/>
+PORT
+
